@@ -1,0 +1,116 @@
+
+
+/* global styles
+///////////////////////////////////// */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a{
+    color: #BDBDBD;
+}
+a:hover {
+    text-decoration: none;
+}
+h1{
+    line-height: .8;
+}
+h2 {
+    margin: 0;
+}
+.cont-wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+h1, h2 {
+    font-family: 'Lobster', cursive;
+}
+
+/* Profile
+///////////////////////////////////// */
+header {
+    background: #FFA000;
+    text-align: center;
+}
+
+
+
+/* Projects
+///////////////////////////////////// */
+.projects {
+    background: #FFECB3;
+}
+.projects a {
+    color: #000000;
+}
+.projects .btn {
+    color: #000000;
+    background: #FFA000;
+    text-decoration: none;
+    padding: .5em;
+    border-radius: 5%;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(255, 160, 0, 0.6);
+}
+.project-items {
+    overflow: hidden;
+    border-bottom: 1px dashed #757575;
+    padding: 25px 0;
+}
+.project-items img {
+    float: left;
+    margin-right: 20px;
+}
+.project-items h3 {
+    margin: 0;
+}
+
+
+/* Work Experince
+///////////////////////////////////// */
+.work-experince {
+    background: #fccb76;
+}
+
+
+
+/* Education
+///////////////////////////////////// */
+.education {
+    background: #FFECB3;
+}
+
+
+
+/* Contact Info
+///////////////////////////////////// */
+footer {
+    background: #757575;
+    text-align: center;
+}
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
